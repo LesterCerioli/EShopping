@@ -133,10 +133,33 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\Register\CityRegController.cs" />
+    <Compile Include="Controllers\Register\CountryRegController.cs" />
+    <Compile Include="Controllers\Register\LanguageRegController.cs" />
+    <Compile Include="Controllers\Register\StateRegController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Context\EStockDbContext.cs" />
+    <Compile Include="Models\Domain\CityModel.cs" />
+    <Compile Include="Models\Domain\CountryModel.cs" />
+    <Compile Include="Models\Domain\KindModel.cs" />
+    <Compile Include="Models\Domain\LanguageModel.cs" />
+    <Compile Include="Models\Domain\MeasurementUnitModel.cs" />
+    <Compile Include="Models\Domain\ProductBrandModel.cs" />
+    <Compile Include="Models\Domain\ProductGroupModel.cs" />
+    <Compile Include="Models\Domain\ProductInputModel.cs" />
+    <Compile Include="Models\Domain\ProductModel.cs" />
+    <Compile Include="Models\Domain\ProductOutputModel.cs" />
+    <Compile Include="Models\Domain\ProviderModel.cs" />
+    <Compile Include="Models\Domain\StateModel.cs" />
+    <Compile Include="Models\Domain\StockInventoryModel.cs" />
+    <Compile Include="Models\Domain\StockProfileModel.cs" />
+    <Compile Include="Models\Domain\StockUserModel.cs" />
+    <Compile Include="Models\Domain\StorageLocalModel.cs" />
+    <Compile Include="Models\ViewModels\LoginViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -175,10 +198,14 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="Views\CityReg\" />
+    <Folder Include="Views\CountryReg\" />
+    <Folder Include="Views\LanguageReg\" />
+    <Folder Include="Views\StateReg\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
