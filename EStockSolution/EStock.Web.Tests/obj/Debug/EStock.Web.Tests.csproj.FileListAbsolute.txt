@@ -1,0 +1,2 @@
+D:\Users\leste\source\Reppos\Repositories\GitHub\EShopping\EStockSolution\EStock.Web.Tests\obj\Debug\EStock.Web.Tests.csprojAssemblyReference.cache
+D:\Users\leste\source\Reppos\Repositories\GitHub\EShopping\EStockSolution\EStock.Web.Tests\obj\Debug\EStock.Web.Tests.csproj.CoreCompileInputs.cache
